@@ -1,0 +1,41 @@
+.gallery {
+    padding: 20px;
+    padding-left: 0;
+    
+
+}
+
+.gallery ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.gallery ul li {
+    margin: 25px;
+}
+
+.gallery ul li:first-child {
+    margin-left: 0;
+}
+
+.gallery ul li a img {
+    border: solid 6px white;
+    border-radius: 15px;
+    max-width: 150px;
+    height: 80px;
+    
+    
+    
+}
+
+@media screen and (max-width: 768px) {
+    .gallery ul li a img {
+        max-width: 150px;
+        display: flex;
+        position: sticky;
+        margin-bottom: -130px;
+        
+    }
+
+}
